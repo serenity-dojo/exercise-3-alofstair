@@ -4,13 +4,13 @@ public class Dog {
 
     private String name;
 
-    private String favouriteToy;
+    private String favoriteToy;
 
     private int age;
 
-    public Dog(String name, String favouriteToy, int age) {
+    public Dog(String name, String favoriteToy, int age) {
         this.name = name;
-        this.favouriteToy = favouriteToy;
+        this.favoriteToy = favoriteToy;
         this.age = age;
     }
 
@@ -19,7 +19,7 @@ public class Dog {
     }
 
     public String getFavoriteToy() {
-        return favouriteToy;
+        return favoriteToy;
     }
 
     public int getAge() {
